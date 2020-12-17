@@ -1,0 +1,101 @@
+body {
+    /* display: flex;
+    justify-content: center;
+    height: 100vh; (viewheight - don vi tuong doi - can giua theo chieu dai cua man hinh) (px-don vi tuyet doi) */
+    /*align-items: center;*/
+}
+
+/* button {
+    display: inline-block;
+    padding: 20px 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 24px;
+    border-radius: 7px;
+} */
+
+/* button:hover {
+    background-color: orangered;
+    text-transform: uppercase;
+}
+
+p {
+    display: none;
+
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: peru;
+}
+
+div:hover p {
+    display: block;
+}
+
+.banner {
+    width: 1000px;
+    height: 600px;
+    border: 2px solid black;
+    background-image: url(https://images.unsplash.com/photo-1601758004584-903c2a9a1abc?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    /* background-repeat: no-repeat; (khi anh be hon kich thuoc body thi se lap lai -> dung lenh nay de anh k lap lai) */
+    /* background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+}  */ 
+
+.menu{
+    background-color: #34465B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    display: inline-block;
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px;
+    border-bottom: 5px solid  #34465B;
+}
+
+.menu a:hover{
+    background-color: black;
+    border-bottom: 5px solid red;
+}
+
+img{
+    height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 20px;
+    object-fit: cover; /*(giup anh k bi meo) */   
+}
+
+i{
+    margin-left: 5px;
+}
+
+.container{
+    width: 1000px;
+    height: 2000px;
+    padding-top: 500px;
+    background-color: powderblue;
+    margin-top: 100px;
+    position: relative;  
+}
+
+.box{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    position: sticky; /* (absolute: di theo cha neu cha co gia tri relative; relative: dua theo vi tri hien tai; fixed: di theo body, fixed o 1 vi tri co dinh ke ca di chuyen len xuong trang) */
+    top: 100px;
+    left: 300px;
+}
+
+
+
