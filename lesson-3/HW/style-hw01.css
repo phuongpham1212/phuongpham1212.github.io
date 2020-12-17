@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+.form{
+    width: 600px;
+    border: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.form .img{
+    display: flex;
+    margin: auto;
+    position: relative;
+    z-index: 3;
+    box-shadow: 0 0 40px 0 rgba(0,0,0,0.2);
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F5F7;
+
+    
+}
+
+.form .info{
+    padding: 20px;
+    background-color: #F0F5F7;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300px;
+    padding: 10px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 0%;
+    background-color: #7BA1AA;
+    text-transform: uppercase;
+    color: white;
+    font-weight: bolder;
+}

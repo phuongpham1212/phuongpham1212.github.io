@@ -1,0 +1,42 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.form {
+    width: 600px;
+    border: none;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 30px 100px;
+    font-weight: bolder;
+}
+
+p {
+    font-weight: 300;
+    color: black;
+}
+
+.form p:first-child{
+    letter-spacing: 6px;
+}
+
+button {
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 40px;
+    border: none
+}

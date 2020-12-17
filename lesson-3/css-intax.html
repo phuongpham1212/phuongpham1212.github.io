@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        id>class>tag
+        p{
+            color: blue;
+        }
+        .para{
+            color: red;
+        }
+        #para{
+            color: green;
+        }
+
+        h1{
+            color: red;
+        }
+
+        .content .main h1{
+            color: blue;
+        }
+        body > .main h1{
+            color: orange;
+        }
+
+        .content .title p:nth-child(2){
+            color: orangered;
+        }
+
+        .content .title p:nth-child(2n){
+            color: blue;
+        }
+
+        .content .title p:nth-child(2n+1){
+            color: red;
+        }
+        
+        .content .title p:nth-last-child{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <p class="para" id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+
+    <div class="content">
+        <div class="title">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+
+        <div class="main">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+    </div>
+</body>
+</html>
