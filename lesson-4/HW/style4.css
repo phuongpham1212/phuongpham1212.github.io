@@ -8,46 +8,47 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container {
     margin: auto;
-    display: flex;  
-    height: 500px;
-    width: 1500px;
-    
+    display: flex;
+    height: 550px;
+    width: 1100px;
 }
 
-.left{
+.left {
     background-color: #F2F2F2;
     padding: 30px;
-    flex-basis: 50%;
+    width: 500px;
     flex-direction: column;
     justify-content: center;
 }
 
-.left h1{
-    font-weight: lighter;
-    /* width: 100%; */
+.left h2 {
+    font-size: 34px; 
+    letter-spacing: 3px;
+    font-weight: normal;
 
 }
 
-.left p{
+.left p {
     margin-top: 20px;
     margin-bottom: 25px;
 }
 
-.left .line{
+.left .line {
     display: flex;
 }
 
-.left .line input{
+.left .line input {
     flex-basis: 50%;
     padding: 10px;
     background-color: #F2F2F2;
 }
 
-.left .line input:first-child{
+.left .line input:first-child {
     margin-right: 20px;
 }
+
 /* #space{
     width: 40%;
     padding: 10px 12px;  
@@ -56,57 +57,85 @@ body {
     margin-right: 30px;
 } */
 
-#box{
+#box {
     margin-top: 10px;
 }
 
 
-button, textarea{
+button,
+textarea {
     display: block;
     margin-top: 20px;
 }
 
-textarea{
+textarea {
     font-family: 'Roboto', sans-serif;
     border: none;
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
     width: 100%;
     background-color: #F2F2F2;
     padding: 10px;
 }
 
-button{
+button {
     border-radius: 0%;
-    padding: 10px 20px;
+    padding: 10px 30px;
     font-weight: bold;
     font-size: 15px;
     border: 2px solid black;
-    
+    margin-top: 30px;
 }
 
-.right{
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.right {
+    width: 500px;
     margin: auto;
-    flex-basis: 50%;
     align-items: center;
-    padding: 30px
+    padding-top: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.up{
+    flex-basis: 50%;
+    font-size: 18px;
 }
 
 
-.up .first{
-    font-weight: bolder;
+.up .first {
+    font-weight: bold;
     margin-bottom: 30px;
 }
 
-.up .second{
+.up .second {
     margin-bottom: 80px;
+    font-weight: lighter;
 }
 
-.third{
+.down {
+    flex-basis: 50%;
+    display: flex;
+    
+}
+
+.third {
     letter-spacing: 2px;
+    font-size: 16px;
+    font-weight: lighter;
+    justify-content: left;
+    align-items: center;
+    padding-top: 50px;
+
 }
 
-
-
-
-
-
+.down img{
+    width: 200px;
+    height: 200px;
+    
+}

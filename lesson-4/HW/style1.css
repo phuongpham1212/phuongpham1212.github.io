@@ -12,12 +12,13 @@ body{
 .container{
     width: 1550px;
     margin: auto;
+    padding: 20px 40px;
   
 }
 
 
 .text-title{
-    font-size: 60px;
+    font-size: 50px;
     font-weight: bolder;
     margin-top: 50px;
     color: #7C57B5;
@@ -31,7 +32,7 @@ body{
 
 .text-script{
     color: #5B4A74;
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 900px;
     margin-top: 20px;
     align-content: space-between;
@@ -153,7 +154,7 @@ body{
     color: white;
     padding: 30px 50px 20px 50px;
     margin-top: 30px;
-    width: max-content;
+    width: 1360px;
     
 }
 
