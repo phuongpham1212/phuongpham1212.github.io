@@ -1,0 +1,64 @@
+.item{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: burlywood;
+    font-size: 50px;
+    margin: 20px;
+    text-align: center; /* can giua theo chieu ngang */ /**/
+    line-height: 200px; /* gia tri = chieu cao cua phan tu; can giua theo chieu doc - dung khi chi co 1 dong */
+}
+
+/* .item1{
+    height: 200px;
+    font-size: 60px;
+}
+
+.item2{
+    height: 500px;
+    font-size: 200px;
+}
+
+.item3{
+    height: 350px;
+    font-size: 20px;
+}
+
+.item4{
+    height: 400px;
+    font-size: 30px;
+} */
+
+.container{
+    background-color: rgb(133, 122, 122);
+    height: 800px;
+    display: flex;
+    flex-direction: row; /* row la gia tri mac dinh cua flex-direction */
+    /* flex-flow: row wrap-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: center; /* flex-start la gia tri mac dinh cua justify-content; dung cho trục main - trục ngang */
+    /* align-items: center; /* dung cho trục cross */
+    /* align-content: center; */
+}
+
+.item1{
+    order: 5;
+    flex-basis: 1000px; /* = width */
+}
+
+.item2{
+    order: 3;
+    flex-basis: 700px;
+}
+
+.item3{
+    order: 4;
+    /*flex-grow: 1; /* lấp đầy khoảng trống còn lại theo tỉ lệ */
+    flex-shrink: 2; /* ngược lại với flex-grow: làm co lại theo tỉ lệ*/
+}
+
+.item4{
+    order: 1; 
+    flex-shrink: 3;
+    align-self: flex-end; /* căn chỉnh riêng từng phần tử */
+}
