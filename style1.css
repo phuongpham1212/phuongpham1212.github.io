@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+   
+}
+
+.container{
+    width: 1100px;
+    height: 1200px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+
+.text-title{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 50px;
+    color: #7C57B5;
+}
+
+.line{
+    background-color: #7C57B5;
+    width: 65px;
+    height: 10px;
+    transform-origin: left center;
+    margin: 20px auto 0 0;
+}
+
+.text-script{
+    color: #5B4A74;
+    font-size: 20px;
+    padding-right: 700px;
+    margin-top: 20px;
+    align-content: space-between;
+    line-height: 30px;
+}
+
+.arrow{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 10px;
+}
+
+.cata{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cata .purple{
+    width: 345px;
+    
+}
+
+.cata .purple-item{
+    background-color:  #7C57B5;
+    color: white;
+    padding: 30px;
+    text-align: left;
+    justify-content: center;
+    height: 345px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cata .purple i{
+    font-size: 70px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.cata .purple h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cata .purple p{
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #D1BFEC;
+}
+
+.cata .yellow{
+    width: 345px;
+    margin-top: 110px;
+}
+
+.cata .yellow-item{
+    background-color: #F1C63E;
+    color: white;
+    padding: 30px;
+    text-align: left;
+    justify-content: center;
+    height: 345px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cata .yellow i{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.cata .yellow h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cata .yellow p{
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.cata .white{
+    width: 345px;
+    margin-top: 220px;
+}
+
+.cata .white-item{
+    background-color: white;
+    color: #7C57B5;
+    padding: 30px;
+    text-align: left;
+    justify-content: center;
+    height: 345px;
+    border: #7C57B5 10px solid;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.cata .white i{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.cata .white h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cata .white p{
+    margin-bottom: 20px;
+    font-size: 18px; 
+}
+
+.down{
+    background-color: #7C57B5;
+    color: white;
+    width: 1400px;
+    padding: 100px;
+    margin-top: 50px;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.para{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 10px 70px;
+}
+
+.para .sth{
+    flex-basis: 27%;
+}
+
+h3{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.para .sth p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+i{
+    margin-right: 20px;
+}
