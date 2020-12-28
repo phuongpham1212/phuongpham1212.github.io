@@ -1,0 +1,188 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121520;
+}
+
+.bubbles {
+    display: block;
+}
+
+.bubble1 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    animation-name: floating;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    opacity: 0;
+
+}
+
+.bubble2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    right: 200px;
+    animation-name: floating;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+.bubble3 {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    right: 400px;
+    animation-name: floating;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4.5s;
+    opacity: 0;
+}
+
+.bubble4 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    left: 80px;
+    animation-name: floating;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 3s;
+    opacity: 0;
+}
+
+.bubble5 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    left: 600px;
+    animation-name: floating;
+    animation-duration: 11s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.bubble6 {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    right: 500px;
+    animation-name: floating;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 5s;
+    opacity: 0;
+}
+
+.bubble7 {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    right: 300px;
+    animation-name: floating;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    opacity: 0;
+
+}
+
+.bubble8 {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    right: 100px;
+    animation-name: floating;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 8s;
+    opacity: 0;
+}
+
+.bubble9 {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    left: 300px;
+    animation-name: floating;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+    opacity: 0;
+}
+
+.bubble10 {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #626eff, #e68387);
+    position: relative;
+    left: 300px;
+    animation-name: floating;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-delay: 7s;
+    opacity: 0;
+}
+
+
+
+@keyframes floating {
+
+    0% {
+        bottom: -100px;
+        transform: translateY(500px);
+        opacity: 2;
+    }
+
+    100% {
+        bottom: 1000px;
+        transform: translateY(-5px);
+    }
+
+
+}
