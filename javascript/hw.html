@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        function hello1() {
+            console.log("Xin chào các bạn");
+        }
+
+        hello1();
+
+
+        function hello2(name) {
+            console.log("Xin chao " + name);
+        }
+
+        hello2("Hanoi");
+
+
+        function hello3(_name) {
+            console.log("Xin chao " + _name);
+        }
+
+        hello3("\"Hanoi\"");
+
+
+        function sum(a,b) {
+            let result = a + b;
+            return `Tong cua ${a} + ${b} = ${result}`;
+        }
+
+        let c = sum(3,4);
+        console.log(c);
+
+
+        function square(a) {
+            let result = a**2;
+            return `a^2 = ${result}`;
+        }
+
+        let d = square(5);
+        console.log(d);
+
+
+        function century(year) {
+            let result = Math.round(year/100 + 1);
+            return `Nam ${year} thuoc the ky ${result}`;
+            
+        }
+
+        let e = century(2021);
+        console.log(e);
+
+
+        function p(r1){
+            let result = 2*3.14*r1;
+            return `Voi ban kinh = ${r1}cm thi chu vi hinh tron la ${result}cm.`;
+        }
+
+        let f = p(6);
+        console.log(f);
+
+
+        function area(r2){
+            let result = 3.14*(r2**2);
+            return `Voi ban kinh = ${r2}cm thi dien tich hinh tron la ${result}cm^2. `;
+        }
+
+        let g = area(6);
+        console.log(g);
+
+
+        function convertDistance(cm) {
+            let result = cm/100;
+            return `${cm}cm = ${result}m`;
+        }
+
+        let h = convertDistance(2051);
+        console.log(h);
+
+
+        function convertTime(minute) {
+            let hour = minute/60, rhour = Math.floor(minute/60), min = (hour - rhour)*60;
+            return `${minute} minutes = ${rhour}h${min}m`;
+        }
+
+        let i = convertTime(195);
+        console.log(i);
+
+
+        function findingX(a,b,c) {
+            let result = (c - b)/a;
+            return `${a}x + ${b} = ${c} => x = ${result}`;
+        }
+
+        let k = findingX(16,5,37);
+        console.log(k);
+
+
+        function convertTemperature(C) {
+            let F = Math.round((C*1.8) + 32);
+            return `${C} degree(s) Celsius = ${F} degree(s) Fahrenheit`; 
+        }
+
+        let l = convertTemperature(38);
+        console.log(l);
+
+
+        function BMI(weight, height) {
+            let result = (weight/((height/100)**2)); result_ = result.toFixed(1);
+            return `${weight}kg and ${height}cm => BMI = ${result_}kg/m^2`;
+        }
+
+        let m = BMI(48,162);
+        console.log(m);
+
+
+        function random(){
+        }
+
+        random()
+        console.log(Math.round(1 + Math.random()*100));
+        
+
+        
+        
+
+
+        
+        
+    </script>
+</body>
+</html>
